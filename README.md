@@ -59,6 +59,7 @@ dropDown.dropDownBackgroundColor = [UIColor blueColor];
 
 
 <B>Advantages</B>
+
    can able to use with any subclass of UIView like UITextField, UIButton.
 
    also with any UI element inside a UITableViewCell or UICollectionViewCell <B>NOTE:</B> For this you should use 
