@@ -4,7 +4,7 @@ Its a view with tableView
 
 <B>for simple use</B>
 
-`    DropDown *dropDown = [[DropDown alloc]init];
+`DropDown *dropDown = [[DropDown alloc]init];
     dropDown.tag = 901;
     dropDown.delegate = self;
     dropDown.dropDownPosition = kDropDownPositionRight;
