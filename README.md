@@ -12,17 +12,17 @@ Its a view with tableView
    dropDown.needToShowArrow = YES;
    dropDown.cornerRadius = 5.0;
    dropDown.dropDownHeight = 120;
-    dropDown.dropDownWidth = 100;
-    dropDown.arrayItemsToList = @[@"1",@"2",@"3"];
-    [dropDown.tableViewDropDownList setShowsVerticalScrollIndicator:NO];
-    [dropDown showDropDownForView:yourView withSelectedObject:@"1"];
+   dropDown.dropDownWidth = 100;
+   dropDown.arrayItemsToList = @[@"1",@"2",@"3"];
+   [dropDown.tableViewDropDownList setShowsVerticalScrollIndicator:NO];
+   [dropDown showDropDownForView:yourView withSelectedObject:@"1"];
 
-    //#pragma mark - DropDownDelegate
+   //#pragma mark - DropDownDelegate
 
-    -(void)dropDown:(nonnull DropDown*)dropDownViewObj selectedAnObject:(nullable id)selectedDropDownItem dropDownForTheView:(nonnull UIView*)viewForDropDown;
-    {
-        NSLog(@"tag = %d selected obj %@",(int)dropDownViewObj.tag,selectedDropDownItem);
-    }
+   -(void)dropDown:(nonnull DropDown*)dropDownViewObj selectedAnObject:(nullable id)selectedDropDownItem dropDownForTheView:(nonnull UIView*)viewForDropDown;
+   {
+       NSLog(@"tag = %d selected obj %@",(int)dropDownViewObj.tag,selectedDropDownItem);
+   }
 ```
 
 
