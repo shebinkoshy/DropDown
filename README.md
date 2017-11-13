@@ -15,6 +15,7 @@ pod 'SSDropDown'
 
 <B>for simple use</B>
 
+Objective C:
 ```
     SSDropDown *dropDown = [[SSDropDown alloc]init];
     dropDown.tag = 901;
@@ -34,6 +35,28 @@ pod 'SSDropDown'
   {
     NSLog(@"tag = %d selected obj %@",(int)dropDownViewObj.tag,selectedDropDownItem);
   }
+```
+
+Swift:
+
+```
+let dropDown = SSDropDown()
+        dropDown.tag = 901
+        dropDown.delegate = self
+        dropDown.dropDownPosition = kSSDropDownPositionRight
+        dropDown.needToShowArrow = true
+        dropDown.cornerRadius = 5
+        dropDown.dropDownHeight = 120
+        dropDown.dropDownWidth = 100
+        dropDown.arrayItemsToList = ["1","2","3"]
+        dropDown.tableViewDropDownList.showsVerticalScrollIndicator = false
+        dropDown.show(for: textView, withSelectedObject: "1")
+
+// MARK: - SSDropDownDelegate
+    
+    func dropDown(_ dropDownViewObj: SSDropDown, selectedAnObject selectedDropDownItem: Any?, dropDownForTheView viewForDropDown: UIView) {
+        print("tag = \(dropDownViewObj.tag) selected obj \(selectedDropDownItem!)")
+    }
 ```
 
 
