@@ -2,9 +2,9 @@
 
 Its a view with tableView
 
-[![Version](https://img.shields.io/cocoapods/v/MKDropdownMenu.svg?style=flat)](http://cocoapods.org/pods/MKDropdownMenu)
-[![License](https://img.shields.io/cocoapods/l/MKDropdownMenu.svg?style=flat)](http://cocoapods.org/pods/MKDropdownMenu)
-[![Platform](https://img.shields.io/cocoapods/p/MKDropdownMenu.svg?style=flat)](http://cocoapods.org/pods/MKDropdownMenu)
+[![Version](https://img.shields.io/cocoapods/v/SSDropDown.svg?style=flat)](http://cocoapods.org/pods/SSDropDown)
+[![License](https://img.shields.io/cocoapods/l/SSDropDown.svg?style=flat)](http://cocoapods.org/pods/SSDropDown)
+[![Platform](https://img.shields.io/cocoapods/p/SSDropDown.svg?style=flat)](http://cocoapods.org/pods/SSDropDown)
 
 <B>for simple use</B>
 
