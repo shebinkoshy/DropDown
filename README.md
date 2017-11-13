@@ -2,6 +2,10 @@
 
 Its a view with tableView
 
+[![Version](https://img.shields.io/cocoapods/v/MKDropdownMenu.svg?style=flat)](http://cocoapods.org/pods/MKDropdownMenu)
+[![License](https://img.shields.io/cocoapods/l/MKDropdownMenu.svg?style=flat)](http://cocoapods.org/pods/MKDropdownMenu)
+[![Platform](https://img.shields.io/cocoapods/p/MKDropdownMenu.svg?style=flat)](http://cocoapods.org/pods/MKDropdownMenu)
+
 <B>for simple use</B>
 
 ```
