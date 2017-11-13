@@ -50,7 +50,7 @@ let dropDown = SSDropDown()
         dropDown.dropDownWidth = 100
         dropDown.arrayItemsToList = ["1","2","3"]
         dropDown.tableViewDropDownList.showsVerticalScrollIndicator = false
-        dropDown.show(for: textView, withSelectedObject: "1")
+        dropDown.show(for: yourView, withSelectedObject: "1")
 
 // MARK: - SSDropDownDelegate
     
