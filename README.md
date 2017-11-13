@@ -6,11 +6,11 @@ Its a view with tableView
 [![License](https://img.shields.io/cocoapods/l/SSDropDown.svg?style=flat)](http://cocoapods.org/pods/SSDropDown)
 [![Platform](https://img.shields.io/cocoapods/p/SSDropDown.svg?style=flat)](http://cocoapods.org/pods/SSDropDown)
 
-### [CocoaPods](https://cocoapods.org/) (recommended)
+### [CocoaPods](https://cocoapods.org/)
 
 ````ruby
 # For latest release in cocoapods
-pod 'JSQMessagesViewController'
+pod 'SSDropDown'
 ````
 
 <B>for simple use</B>
