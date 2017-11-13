@@ -5,24 +5,24 @@ Its a view with tableView
 <B>for simple use</B>
 
 ```
-   DropDown *dropDown = [[DropDown alloc]init];
-   dropDown.tag = 901;
-   dropDown.delegate = self;
-   dropDown.dropDownPosition = kDropDownPositionRight;
-   dropDown.needToShowArrow = YES;
-   dropDown.cornerRadius = 5.0;
-   dropDown.dropDownHeight = 120;
-   dropDown.dropDownWidth = 100;
-   dropDown.arrayItemsToList = @[@"1",@"2",@"3"];
-   [dropDown.tableViewDropDownList setShowsVerticalScrollIndicator:NO];
-   [dropDown showDropDownForView:yourView withSelectedObject:@"1"];
+    SSDropDown *dropDown = [[SSDropDown alloc]init];
+    dropDown.tag = 901;
+    dropDown.delegate = self;
+    dropDown.dropDownPosition = kSSDropDownPositionRight;
+    dropDown.needToShowArrow = YES;
+    dropDown.cornerRadius = 5.0;
+    dropDown.dropDownHeight = 120;
+    dropDown.dropDownWidth = 100;
+    dropDown.arrayItemsToList = @[@"1",@"2",@"3"];
+    [dropDown.tableViewDropDownList setShowsVerticalScrollIndicator:NO];
+    [dropDown showDropDownForView:yourView withSelectedObject:@"1"];
 
-   //#pragma mark - DropDownDelegate
+   //#pragma mark - SSDropDownDelegate
 
-   -(void)dropDown:(nonnull DropDown*)dropDownViewObj selectedAnObject:(nullable id)selectedDropDownItem dropDownForTheView:(nonnull UIView*)viewForDropDown;
-   {
-       NSLog(@"tag = %d selected obj %@",(int)dropDownViewObj.tag,selectedDropDownItem);
-   }
+   -(void)dropDown:(nonnull SSDropDown*)dropDownViewObj selectedAnObject:(nullable id)selectedDropDownItem dropDownForTheView:(nonnull UIView*)viewForDropDown;
+  {
+    NSLog(@"tag = %d selected obj %@",(int)dropDownViewObj.tag,selectedDropDownItem);
+  }
 ```
 
 
@@ -33,12 +33,12 @@ Include below code
 dropDown.needCustomCell = YES;
 dropDown.dropDownBackgroundColor = [UIColor blueColor];
 
--(void)dropDown:(nonnull DropDown*)dropDownViewObj registerCustomCellForTheDropDownTableView:(nonnull UITableView*)dropDownTableView
+-(void)dropDown:(nonnull SSDropDown*)dropDownViewObj registerCustomCellForTheDropDownTableView:(nonnull UITableView*)dropDownTableView
 {
     [dropDownTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"dropDownCell"];
 }
 
--(nonnull UITableViewCell *)dropDown:(nonnull DropDown*)dropDownViewObj dropDownTableView:(nonnull UITableView *)dropDownTableView cellForRowAtIndexPath:(nonnull NSIndexPath *)dropDownIndexPath andSelectedItem:(nullable id)selectedObject;
+-(nonnull UITableViewCell *)dropDown:(nonnull SSDropDown*)dropDownViewObj dropDownTableView:(nonnull UITableView *)dropDownTableView cellForRowAtIndexPath:(nonnull NSIndexPath *)dropDownIndexPath andSelectedItem:(nullable id)selectedObject;
 {
     UITableViewCell *cell = [dropDownTableView dequeueReusableCellWithIdentifier:@"dropDownCell"];
     NSString *title = [dropDownViewObj.arrayItemsToList objectAtIndex:dropDownIndexPath.row];
