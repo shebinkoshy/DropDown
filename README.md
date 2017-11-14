@@ -11,7 +11,7 @@ Its a view with tableView
 ````ruby
 # For latest release in cocoapods
 pod 'SSDropDown'
-```
+````
 
 ### Carthage
 ```
