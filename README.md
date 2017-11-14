@@ -2,16 +2,21 @@
 
 Its a view with tableView
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application)
 [![Version](https://img.shields.io/cocoapods/v/SSDropDown.svg?style=flat)](http://cocoapods.org/pods/SSDropDown)
 [![License](https://img.shields.io/cocoapods/l/SSDropDown.svg?style=flat)](http://cocoapods.org/pods/SSDropDown)
 [![Platform](https://img.shields.io/cocoapods/p/SSDropDown.svg?style=flat)](http://cocoapods.org/pods/SSDropDown)
 
 ### [CocoaPods](https://cocoapods.org/)
-
 ````ruby
 # For latest release in cocoapods
 pod 'SSDropDown'
-````
+```
+
+### Carthage
+```
+git "https://github.com/shebinkoshy/DropDown.git" "carthage"
+```
 
 <B>for simple use</B>
 
