@@ -6,7 +6,7 @@ Its a view with tableView
 [![Version](https://img.shields.io/cocoapods/v/SSDropDown.svg?style=flat)](http://cocoapods.org/pods/SSDropDown)
 [![License](https://img.shields.io/cocoapods/l/SSDropDown.svg?style=flat)](http://cocoapods.org/pods/SSDropDown)
 [![Platform](https://img.shields.io/cocoapods/p/SSDropDown.svg?style=flat)](http://cocoapods.org/pods/SSDropDown)
-[![Join the chat at https://github.com/shebinkoshy/DropDown](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/iOS-objectiveC-swift/SSDropDown?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+[![Join the chat at https://gitter.im/iOS-objectiveC-swift/SSDropDown](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/iOS-objectiveC-swift/SSDropDown?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ### [CocoaPods](https://cocoapods.org/)
 ````ruby
