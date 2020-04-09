@@ -6,7 +6,7 @@ final class SSDropDownTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SSDropDown().text, "Hello, World!")
+//        XCTAssertEqual(SSDropDown().text, "Hello, World!")
     }
 
     static var allTests = [
