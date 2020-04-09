@@ -18,6 +18,9 @@ pod 'SSDropDown'
 ```
 git "https://github.com/shebinkoshy/DropDown.git" "carthage"
 ```
+### SwiftPM
+To use SwiftPM, you should use Xcode 11 to open your project. Click File -> Swift Packages -> Add Package Dependency, enter [SSDropdown repo's URL](https://github.com/shebinkoshy/DropDown.git) 
+After select the package, you can choose the dependency type as branch with ```swiftpackage```. Then Xcode will setup all the stuff for you.
 
 <B>for simple use</B>
 
